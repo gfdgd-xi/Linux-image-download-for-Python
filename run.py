@@ -198,19 +198,19 @@ elif(release == "3" or release == "apt" or release == "source" or release == "ap
             version = input(">").lower()
             if(version == "1"):
                 print("#######################################\n")
-                os.system("cat ./sources/ubuntu14.04.5-sources")
+                os.system("cat ./sources/ubuntu14.04.5-sources.list")
                 print("\n#######################################")
             if(version == "2"):
                 print("#######################################\n")
-                os.system("cat ./sources/ubuntu16.04-sources")
+                os.system("cat ./sources/ubuntu16.04-sources.list")
                 print("\n#######################################")
             if(version == "3"):
                 print("#######################################\n")
-                os.system("cat ./sources/ubuntu18.04-sources")
+                os.system("cat ./sources/ubuntu18.04-sources.list")
                 print("\n#######################################")
             if(version == "4"):
                 print("#######################################\n")
-                os.system("cat ./sources/ubuntu20.04-sources")
+                os.system("cat ./sources/ubuntu20.04-sources.list")
                 print("\n#######################################")
             pass
         if(task == "4"):
